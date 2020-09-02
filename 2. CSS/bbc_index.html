@@ -1,0 +1,216 @@
+<!doctype html>
+<html>
+<head>
+    <title>Learning CSS</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+
+    <style type="text/css">
+
+	body{
+		margin:0px;
+		font-family:arial,helvetica,san-serif;
+	}
+
+	#topbar{
+		background-color:#7A0000;
+		width:100%
+		height:40px;
+		color:white;
+	}
+
+	.fixedwidth{
+		width:1100px;
+		margin:0 auto;
+	}
+	
+	#logodiv{
+		padding-top:5px;
+		float:left;
+		padding-right:4px;
+		border-right:1px solid white;
+	}
+
+	#signindiv{
+		font-weight:bold;
+		font-size:.9em;
+		padding:10px 80px 10px 10px;
+		border-right:1px solid white;
+		margin:0;
+		float:left;
+	}
+
+	#topmenudiv{
+		float:left;
+	}
+
+	#topmenudiv ul{
+		margin:0px;
+		padding:0px;
+	}
+
+	#topmenudiv li{
+		list-style:none;
+		font-weight:bold;
+		font-size:.9em;
+		border-right:1px solid white;
+		height:100%;
+		padding:10px 20px 10px 20px;
+		float:left;
+	}
+
+	#searchdiv {
+		float:left;
+		padding:5px 0 0 10px;
+		}
+
+
+	#searchdiv input {
+		height:25px;
+		border:none;
+		font-size:.9em;
+		padding: 1px 1px 1px 10px;
+		background-image:url("images/Chrysanthemum.jpg");
+		}
+
+	.break {
+		clear:both;
+		}
+
+
+	#newsbar{
+		background-color:#990008;
+		width:100%;
+		height:100px;
+		color:white;
+		}
+
+	#newsbar p {
+		padding:0;
+		margin:0;
+		padding-top:10px;
+		}
+
+	#newsheader {
+		padding: 20px 0px 0 40px;
+		font-size: 3.0em;
+		float:left;
+		}
+
+	#uk {
+		font-size:.6em
+		}
+		
+	#rss {
+		float:right;
+		padding:38px 0 0 0;
+		}
+
+	#topicmenu {
+
+	}
+
+	#topicmenu ul {
+
+		margin:0px;
+		padding:5px 0 0 5px;
+		height: 20px;
+	}
+
+	#topicmenu li {
+		list-style:none;
+		font-size:.8em;
+		padding: 0 6px 0 6px;
+		border-right:1px solid white;
+		height:100%;
+		float:left;
+		/*background-color:#4D0000;*/
+	}
+
+    </style>
+
+</head>
+
+<body>
+
+<div>
+
+	<div id=topbar>
+
+		<div class=fixedwidth>
+
+			<div id="logodiv">
+			<img src="images/bbclogo.png" />
+			</div>
+			
+			<div id="signindiv">
+			Sign In
+			</div>
+			
+			<div id="topmenudiv">
+			<ul>
+			<li>News</li>
+			<li>Sport</li>
+			<li>Weather</li>
+			<li>iPlayer</li>
+			<li>TV</li>
+			<li>Radio</li>
+			<li>More...</li>
+			</ul>
+			</div>
+
+			<div id="searchdiv">
+			
+				<input type= "text" placeholder="Search" />
+
+			</div>
+			
+		</div>
+
+	</div>
+
+<div id="break"> </div>
+
+<div id=newsbar>
+
+		<div class=fixedwidth>
+
+			<p id="newsheader">News <span id="uk">UK</span></p>
+			<div id="rss">RSS</div>
+
+		</div>
+
+		<div class="break"></div>
+		
+		<div id="topicmenu">
+
+		<div class=fixedwidth>
+			<ul>
+			<li>Home</li>
+			<li>World</li>
+			<li>UK</li>
+			<li>England</li>
+			<li>N. Ireland</li>
+			<li>Scotland</li>
+			<li>Wales</li>
+			<li>Business</li>
+			<li>Politics</li>
+			<li>Health</li>
+			<li>Education</li>
+			<li>Sci/Environment</li>
+			<li>Technology</li>
+			<li style="border-right:none">Entertainmment & Arts</li>
+			</ul>
+		</div>
+		</div>
+
+	</div>
+
+</div>
+
+
+</body>
+</html>
